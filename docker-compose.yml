@@ -3,5 +3,6 @@ services:
    service1:
      image: ctn:a1 
      container_name: Cpstone 
+     build: .
      ports:
-       - '3005:80' 
+       - '80:80' 
