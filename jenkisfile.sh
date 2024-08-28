@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKERHUB_DEV_REPO = 'aartheshree/dev'
         DOCKERHUB_PROD_REPO = 'aartheshree/prod'
-        GIT_REPO_URL = 'hhttps://github.com/Aartheshree/devops-build.git'
+        GIT_REPO_URL = 'https://github.com/Aartheshree/devops-build.git'
     }
 
     stages {
