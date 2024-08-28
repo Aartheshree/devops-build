@@ -1,7 +1,7 @@
-version: "3"
-services: 
-  jenkins: 
-    image: jenkins/jenkins:lts 
-    container_name: reactapp 
-    ports: 
-      - '3007:8080'  
+version: '3'
+services:
+  web:
+    image: app
+    build: .
+    ports:
+      - "80:80" 
