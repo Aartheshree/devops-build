@@ -1,8 +1,7 @@
 version: "3"
 services: 
-   service1:
-     image: ctn:a1 
-     container_name: Cpstone 
-     build: .
-     ports:
-       - '80:80' 
+  jenkins: 
+    image: jenkins/jenkins:lts 
+    container_name: reactapp 
+    ports: 
+      - '3007:8080'  
